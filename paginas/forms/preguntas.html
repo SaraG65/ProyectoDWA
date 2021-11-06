@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NOTICIAS</title>
+         <!-- CSS only -->
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+     <link href="../CSS/style.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+         </script>
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+         </script>
+    </head>
+    <body>
+        <div class="container" id="myPage">
+                <div class="row">
+                  <div class="col-md-12 fixed-top titulo" > 
+                    <h2 class="text-center">PORTAL WEB DE NOTICIAS DE HISTORIA Y CIENCIA</h2>
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+                      <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse " id="navbarText">
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="../index.html"><button id="btnMenu" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="">
+                                INICIO
+                            </button></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                NOTICIAS
+                              </a>
+                              <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item nav-link" href="historia.html">HISTORIA</a></li>
+                                <li><a class="dropdown-item nav-link" href="ciencia.html">CIENCIA</a></li>
+                              </ul>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="nosotros.html"><button id="btnMenu" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="">
+                                NOSOTROS
+                            </button></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"> <button id="btnMenu" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contacto">
+                                CONTACTO
+                            </button></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                PREGUNTAS FRECUENTES
+                           </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><button id="btnMenu" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login">
+                                LOGIN
+                            </button></a>
+                            </li>
+                          </ul>      
+                        </div>
+                      </div>
+                    </nav>
+                </div> 
+            </div>
+            <div  class="row text-center caja">
+              <div class="col-md-12 text-center">
+                  <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            #1 ¿Por qué debo registrarme? ¿Y para qué sirve?
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>Registrarse en INFORMATE le permitirá tener acceso a las noticias y contenidos del portal. Al crear una cuenta podrá consultar información, configurar servicios de información como boletines, revisar sus datos personales y posteriormente si así lo desea, pagar su suscripción digital.</strong> 
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            #2 ¿Cómo puedo registrarme?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>Sólo debes ir a la parte superior del portal o de su teléfono inteligente donde encontrará la opción: desde las redes sociales como Facebook o Cree una cuenta.
+
+                              Al entrar a esta opción verá un formulario donde deberá llenar una información básica. Después de ingresar sus datos debe activar (verificar) su cuenta dando clic a un enlace que enviaremos directamente a su correo electrónico. Correo registrado por usted.</strong> 
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              #3 ¿Cómo ingreso a mi cuenta?
+                            </button>
+                          </h2>
+                          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>En la parte superior del portal web y en el menú de la versión móvil y tabletas encontrará el enlace Iniciar sesión, al dar clic encontrará los espacios para ingresar su correo electrónico y su contraseña. Recuerde que debe escribirlos correctamente. Una vez la validación se lleve a cabo, llegará a su zona de usuario.</strong>
+                            </div>
+                          </div>
+                        </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                             #4 ¿Puedo comentar las noticias si no estoy registrado?
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>No, este es uno de los servicios al que podrás acceder únicamente si estás registrado y has entrado a tu cuenta con tu correo electrónico y contraseña.</strong> 
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+          </div>
+            <footer>
+                <div class="row">
+                        <div class="col-sm-8">
+                          <p style="font-size: smaller;"> Portal Web de Noticias de Historia y Ciencia<br>
+                             Sara Esther Galán Gómez             #228419<br>
+                                Randy Josué Muñoz Castillo          #159215<br>
+                                María José Betancourt Aguilar       #100716 </p>
+                        </div>
+                        <div id="redes" class="col-sm-4">
+                            <a href="https://www.facebook.com/profile.php?id=100074467928936" target="_blank">
+                                <i class="fa fa-facebook-square" style="font-size:36px;color:blue"></i>
+                            </a>
+                            <a href="https://www.google.com/account/about/?hl=es" target="_blank">
+                                <i class="fa fa-google-plus-square" style="font-size:36px;color:black"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank">
+                                <i class="fa fa-twitter-square" style="font-size:36px;color:lightskyblue"></i>
+                            </a>
+                        </div>
+                </div> 
+            </footer>
+            <!-- Formularios -->
+            <div class="modal" tabindex="-1" id="contacto">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">CONTACTO</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col">
+                          <div class="shadow-lg p-3 mb-5 mt-4 bg-body rounded">
+                             <form class="row g-3 needs-validation" novalidate>
+                                <div class="row">
+                                  <div class="col-md-4">
+                                    <label for="txtNombres" class="form-label">Nombres:</label>
+                                    <input type="text" name="txtNombres" id="nombre" class="form-control" required>
+                                    <div class="valid-feedback">Completados</div>
+                                    <div class="invalid-feedback">Debe completar el campo</div>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="txtApellidos" class="form-label">Apellidos:</label>
+                                    <input type="text" name="txtApellidos" id="apellido" class="form-control" required>
+                                    <div class="valid-feedback">Completados</div>
+                                    <div class="invalid-feedback">Debe completar el campo</div>
+                                </div>
+                                      </div>
+                                        <div class="row">
+                                          <div class="col-md-12">
+                                            <label for="validationCustom03" class="form-label">Correo electrónico:</label>
+                                            <div class="input-group mb-3">
+                                              <input type="text" id="correo" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" >
+                                            </div>
+                                            <div class="valid-feedback">Completados</div>
+                                            <div class="invalid-feedback">Debe scompletar el campo</div>
+                                          </div>
+                                        </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <label for="validationCustom03" class="form-label">Genero:</label>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                      Femenino
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                      Masculino
+                                    </label>
+                                  </div>
+                                  <div class="valid-feedback">Completados</div>
+                                  <div class="invalid-feedback">Debe seleccionar un genero</div>
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="txtIntereses" class="form-label">Intereses:</label>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                  <label class="form-check-label" for="flexCheckDefault">
+                                    Deporte
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                  <label class="form-check-label" for="flexCheckDefault">
+                                    Fitness
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                  <label class="form-check-label" for="flexCheckDefault">
+                                    Tecnologia
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                  <label class="form-check-label" for="flexCheckDefault">
+                                    Salud
+                                  </label>
+                                </div>
+                                  
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <label for="slcNivel" class="form-label">Nivel de Escolaridad:</label>
+                                <select name="slcNivel" id="slcNivel" class="form-select" required>
+                                    <option value="" selected disabled>Seleccionar</option>
+                                    <option value="P">Primaria</option>
+                                    <option value="B">Bachiller</option>
+                                    <option value="T">Técnico</option>
+                                    <option value="S">Superior</option>
+                                </select>
+                                <div class="valid-feedback">Completados</div>
+                              <div class="invalid-feedback">Debe seleccionar un nivel escolar</div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <label for="slcNivel" class="form-label">Comentarios:</label>
+                                <div class="input-group">
+                                  <textarea class="form-control" aria-label="With textarea"></textarea>
+                                </div>
+                                <div class="valid-feedback">Completados</div>
+                              <div class="invalid-feedback">Debe seleccionar un nivel escolar</div>
+                              </div>
+                            </div>
+                              <div class="row">
+                                <div class="col-md-12 caja text-center">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                  <button type="submit" class="btn btn-primary fw-bold" onclick="validarContacto()">Enviar</button>
+                                </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal" tabindex="-1" id="login">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">INICIAR SESION</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <div class="row">
+                          <div class="col">
+                              <div class="shadow-lg p-3 mb-5 mt-4 bg-body rounded">
+                                <form class="row g-3 needs-validation" novalidate>
+                                  <div class="col-md-6">
+                                      <label for="validationCustom03" class="form-label">Usuario</label>
+                                      <input type="text" class="form-control" id="usuario"required>
+                                      <div class="invalid-feedback">
+                                          Escriba un usuario válido.
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <label for="validationCustom03" class="form-label">Password</label>
+                                      <input type="password" class="form-control" id="clave" required>
+                                      <div class="invalid-feedback">
+                                          Verificar contraseña.
+                                      </div>
+                                  </div>
+                                  <div class="col-12">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                      <button type="submit" class="btn btn-primary fw-bold" onclick="validar()" >Enviar</button>
+                                  </div>
+                              </form>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+              </div>
+            </div>
+          </div>
+        <script src="../Js/validacion.js"></script>
+    </body>
+</html>
